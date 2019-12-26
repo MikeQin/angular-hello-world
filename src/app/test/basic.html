@@ -1,0 +1,14 @@
+<!-- interpolation -->
+<h2>Welcome {{ name.toUpperCase() }}</h2>
+<h1>{{ name.length }}</h1>
+<h1>{{ greet() }}</h1>
+<!-- property binding -->
+<input [disabled]="isDisabled" [id]="myId" type="text" value="Michael" />
+<br /><br />
+<!-- two way data binding -->
+<h2>Two Way Data Binding</h2>
+<input #msg [(ngModel)]="twoWayBinding" type="text" />
+<p>{{ twoWayBinding }}</p>
+<!-- event binding -->
+<button (click)="log($event)">Log</button>
+<button (click)="logMessage(msg.value)">Log Message</button>

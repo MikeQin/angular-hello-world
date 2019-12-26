@@ -1,6 +1,21 @@
-# HelloWorld
+# Angular Hello World
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+
+## Tutorial
+https://www.youtube.com/watch?v=GKU0LtH8bzU&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ&index=1
+
+## Add a Component
+```
+# generate a Component 'test'
+ng g c test
+```
+
+## Add a Service
+```
+# generate a Service 'employee'
+ng g s employee
+```
 
 ## Development server
 
